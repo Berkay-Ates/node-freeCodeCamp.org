@@ -1,0 +1,24 @@
+npm -v 
+
+--> download packages for local projects
+    npm i $packageName
+
+--> downloading dev dependencies 
+    npm i $dependencyName --save-dev 
+
+--> global dependencies 
+    npm install g $packageName 
+    sudo npm install g $packageName
+
+--> Uninstall Packages 
+    npm uninstall $packageName
+
+- packages.json - manifest file that stores important info about project and packages 
+- npm init (step by step init the npm)
+- npm init -y (init npm as everything default) 
+
+*** NOT: 
+    github icin push yaparken herhangi bir sekilde node_modules dosyasını push edilen dosyalar icerisine 
+    koymuyoruz. Zaten repomuzu githubdan indiren herhez "npm install" komutunu calıstırdıklarında node modulleri 
+    yuklenmis olacak. Eger bunu yapmazsak olacak olan githuba tonlarca mb boyutundaki dosyayı yuklamekten ve 
+    gereksiz yere beklemekten baska birsey olmaz 
